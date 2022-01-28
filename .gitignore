@@ -1,0 +1,11 @@
+env/
+.vscode/settings.json
+__pycache__/
+.idea/
+/logs
+.vs/
+.vscode/
+.idea/
+config/dm_pwcit_crossrepoapp_prd_mpf_usr_opensh
+config/pwcit_crossrepo_mpf_user_opensh
+config/pwcit_crossrepoapp_prd_mpf_usr_opensh

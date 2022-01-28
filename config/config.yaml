@@ -1,0 +1,25 @@
+SFTP_CONFIG:
+  hostname: ''
+  username: ''
+  password:  ""
+  privatekey: ''
+  passphrase: ''
+  path_download_to_network_share: ''
+  path_historic_to_network_share: ''
+  path_for_access_pdf_files: ''
+  prefix_path: '2021'
+  timeout: 100
+SMTP_CONFIG:
+  host: 'it-milmta000'
+  port: 25
+  fromaddr: '"CNI Synch" <noreply@pythonlegacy.com>'
+  toaddrs: ['martialo218@gmail.com']
+  subject: 'Timeout Expired'
+  message: 'We are sorry to notify you that timeout expired when trying to establish connection to SFTP'
+7ZIP_CONFIG:
+  linux_zip_exe_path: '/usr/bin/7za'
+  windows_zip_exe_path: 'C:\\Program Files\\7-Zip\\7z.exe'
+REQUEST_CONFIG:
+  url: ''
+  password: ""
+  token_fixed_part: ""

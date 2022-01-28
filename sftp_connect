@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+set timeout -1
+spawn sftp -i config/private_key user@hostname
+expect "Enter passphrase for key 'config/private_key':"
+send "passphrase\n"
+expect "password:"
+send "password\n"
+expect "sftp>"
+
+send "get //*  download/ -resumesupport=off \n"
+expect "sftp>"
+
+send "bye\n"
